@@ -4,7 +4,6 @@ background(204);
 }
 
 function draw(){
-
 //face
 ellipse(200, 60, 80, 50);
 
