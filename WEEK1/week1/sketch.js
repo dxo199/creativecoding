@@ -1,14 +1,17 @@
 function setup() {
-  createCanvas(480, 240);
-  background(204);
+createCanvas(400, 200);
+background(204);
 }
 
-function draw() {
+function draw(){
 
+//face
+ellipse(200, 60, 80, 50);
 
-  //head
-  ellipse(200, 50, 80, 80);
+//eyes
+ellipse(180, 40, 20, 20);
+ellipse(220, 40, 20, 20);
 
-  //body
-  ellipse(200, 140, 100, 100)
+//mouth
+ellipse(200, 65, 40, 15);
 }
